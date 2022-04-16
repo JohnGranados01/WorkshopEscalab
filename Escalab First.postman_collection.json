@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "a8c39f33-9d96-4d8b-a274-1297945bd88f",
+		"name": "Escalab First",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Formulario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"John Granados\",\r\n    \"email\":\"jhongranadossalamanca@gmail.com\",\r\n    \"phone\":\"+573112654892\",\r\n    \"select\":\"HTML5\",\r\n    \"comment\":\"Buenos dias estamos presentes estamos mas que listos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://30kd6edtfc.execute-api.us-east-1.amazonaws.com/prod/send-email",
+					"protocol": "https",
+					"host": [
+						"30kd6edtfc",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"send-email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
